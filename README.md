@@ -23,3 +23,4 @@ My Engineering 4 notebook
   In this assignment I learned how to def functions by using "def function name():" and any parameters you need you can put in the parantheses. I also learned that the round function is simply just "round(math function, number of digits to round)". Also I learned that I had to return my integer answer as a string to print it. 
   
 ### Images and Links
+<img src="Images/Calculator-Lukas.png" width="400">
