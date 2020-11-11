@@ -33,4 +33,4 @@ My Engineering 4 notebook
 ### Lessons Learned 
   In this assignment I learned how to make a array/list by setting a variable = []. I learned the command variable.append(number) this adds a number or string to the list at the end. I learned that the ** is the math operator for an exponent. I also learned the raspberry pi command sudo shutdown -h now which will shut down the raspberry pi.
 ### Images and Links
-<img src="Images/Calculator-Lukas.png" width="400">
+<img src="Images/Quadratic_Solver-Lukas.png" width="400">
