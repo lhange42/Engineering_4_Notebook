@@ -24,3 +24,13 @@ My Engineering 4 notebook
   
 ### Images and Links
 <img src="Images/Calculator-Lukas.png" width="400">
+
+## Quadratic Solver
+
+### Description
+  In this assignment we make a code that finds out if there are roots of a quadratic with 3 user inputted coefficients and if there are roots it finds them and puts them into an array and prints them. 
+    
+### Lessons Learned 
+  In this assignment I learned how to 
+### Images and Links
+<img src="Images/Calculator-Lukas.png" width="400">
