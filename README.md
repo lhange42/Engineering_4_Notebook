@@ -34,3 +34,15 @@ My Engineering 4 notebook
   In this assignment I learned how to make a array/list by setting a variable = []. I learned the command variable.append(number) this adds a number or string to the list at the end. I learned that the ** is the math operator for an exponent. I also learned the raspberry pi command sudo shutdown -h now which will shut down the raspberry pi.
 ### Images and Links
 <img src="Images/Quadratic_Solver-Lukas.png" width="400">
+
+
+## Quadratic Solver
+
+### Description
+  In this assignment we make a code that gets a user inputted sentence that gets turned into a list by characters and printed one by one
+    
+### Lessons Learned 
+  In this assignment I learned how to replace certain parts of a string 
+### Images and Links
+<img src="Images/Loops_and_Strings-Lukas.png" width="400">
+
