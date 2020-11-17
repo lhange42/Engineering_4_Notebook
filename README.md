@@ -36,13 +36,13 @@ My Engineering 4 notebook
 <img src="Images/Quadratic_Solver-Lukas.png" width="400">
 
 
-## Quadratic Solver
+## Strings and Loops
 
 ### Description
   In this assignment we make a code that gets a user inputted sentence that gets turned into a list by characters and printed one by one
     
 ### Lessons Learned 
-  In this assignment I learned how to replace certain parts of a string 
+  In this assignment I learned how to replace certain parts of a string using string.replace("whatever I want replaced", "what I want to replace it"). I also learned setting a string equal to a list by doing string = list(string) will make it list seperated by letter.
 ### Images and Links
 <img src="Images/Loops_and_Strings-Lukas.png" width="400">
 
