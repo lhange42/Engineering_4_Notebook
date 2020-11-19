@@ -36,6 +36,8 @@ while guessList != word:
             print(guessList[y], end=" ")
 
             
-    else:
+    elif(same == False):
         print("Guess again!")
-
+    else:
+        print("You already guessed that letter")
+    
