@@ -11,11 +11,31 @@ print ("\n" * 50)
 for i in range(0, len(word)):
     guessList.append("_")
 
-while programFinished is False:
-    guessLetter = str(input("Player 2, guess a letter: ").lower())
-    counter = -1
+while guessList != word:
+    guessLetter = str(input("\nPlayer 2, guess a letter: ").lower())
+    correct = False
+    same = False
+
+    for t in guessList:
+        if guessLetter == t:
+            same = True
+
     for i in word:
-        if(i == guess):
-            guessList.insert(word.index(guessLetter), guessLetter)
-            guessList.pop(word.index(guessLetter) + 1)
-    ProgramFinished = True
+        if(i == guessLetter) and (same == False):
+            correct = True
+    
+    if correct == True:
+        indices = [i for i, x in enumerate(word) if x == guessLetter]
+
+        for u in range(0, len(indices)):
+            guessList.insert(indices[u], guessLetter)
+            guessList.pop(indices[u] + 1)
+
+        
+        for y in range(0, len(guessList)):
+            print(guessList[y], end=" ")
+
+            
+    else:
+        print("Guess again!")
+
