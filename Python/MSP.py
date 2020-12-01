@@ -15,35 +15,35 @@ sameGuess = []
 guessNum = 7
 
 
-def draw(n):
-    f = open("graham.txt", "r")
-    for x in range(0, (5-n) * 4 + 1):
+def draw(t):
+    r = open("Lucas_Fuller.txt", "r")
+    for x in range(0, (5-t) * 4 + 1):
         print(f.readline(), end="")
 
 while True:
     print("-" * 40)
-    letter = input("Player 2, guess a letter: ")
+    guessLetter = input("Player 2, guess a letter: ")
 
-    if letter.upper() in already_guessed:
-        letter = ""
+    if guessLetter in sameGuess:
+        guessletter = ""
         print("Player 2, you already guessed this letter")
 
-    elif letter.upper() in word:
-        already_guessed.append(letter.upper())
-        index = word.index(letter.upper())
-        guessed[index] = letter.upper()
+    elif guessLetter in word:
+        sameGuess.append(guessLetter)
+        index = word.index(guessLetter)
+        guessList[index] = guessLetter
         word[index] = "_"
-        print("".join(guessed))
+        print("".join(guessList))
 
-    elif letter.upper() not in word:
-        already_guessed.append(letter.upper())
-        num_guesses -= 1
-        print("Wrong! Guesses left: " + str(num_guesses))
+    elif guessLetter not in word:
+        sameGuess.append(guessLetter)
+        guessNum -= 1
+        print("Wrong! Guesses left: " + str(guessNum))
         print("")
-        draw(num_guesses)
+        draw(guessNum)
         print("")
 
-        if num_guesses == 0:
+        if guessNum == 0:
             print("Player 2, you ran out of guesses. You lose!")
             break            
         
