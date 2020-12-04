@@ -9,20 +9,20 @@ word = list(word)
 print ("\n" * 50)
 for i in range(0, len(word)):
     guessList.append("_")
-guessLetter = str(input("\nPlayer 2, guess a letter: ").upper())
+guessLetter = ""
 sameGuess = []
 guessNum = 7
 
 
 def draw(t):
     r = open("Lucas_Fuller.txt", "r")
-    for f in range(0, (5-t) * 4 + 1):
+    for f in range(0, (7-t) * 4 + 1):
         print(r.readline(), end="")
 
 
 while True:
     print("-" * 40)
-    guessLetter = input("Player 2, guess a letter: ")
+    guessLetter = input("Player 2, guess a letter: ").upper()
 
     if guessLetter in sameGuess:
         guessletter = ""
@@ -30,15 +30,16 @@ while True:
 
     elif guessLetter in word:
         sameGuess.append(guessLetter)
-        index = word.index(guessLetter)
-        guessList[index] = guessLetter
-        word[index] = "_"
+        indices = [i for i, x in enumerate(word) if x == letter]
+        for x in range(0,len(indices));
+            guessList[indices[x]] = guessLetter
+            word[indixes[x]] = "_"
         print("".join(guessList))
 
     elif guessLetter not in word:
         sameGuess.append(guessLetter)
         guessNum -= 1
-        print("Wrong! Guesses left: " + str(guessNum))
+        print("Guess again, Guesses left: " + str(guessNum))
         print("")
         draw(guessNum)
         print("")
@@ -49,3 +50,4 @@ while True:
         
     if "_" not in guessList:
         print("Player 2, you won")
+        break
