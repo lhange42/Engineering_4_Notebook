@@ -16,8 +16,9 @@ guessNum = 7
 
 
 def draw(t):
-    r = e in  
-        print
+    r = open("Lucas_Fuller.txt", "r")
+    for f in range(0, (5-t) * 4 + 1):
+        print(f.readline(), end="")
 
 while True:
     print("-" * 40)
@@ -47,4 +48,5 @@ while True:
             break            
         
     if "_" not in guessList:
-        print("Player 2, you won"
+        print("Player 2, you won")
+        break
