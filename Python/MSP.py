@@ -6,7 +6,6 @@ guessLetter = ""
 guessList = []
 word = str(input(" What's the word, player 1: ").upper())
 word = list(word)
-print(word)
 print ("\n" * 50)
 for i in range(0, len(word)):
     guessList.append("_")
