@@ -16,14 +16,10 @@ guessNum = 7
 
 
 def draw(t):
-<<<<<<< HEAD
-    r = e in  
-        print
-=======
     r = open("Lucas_Fuller.txt", "r")
     for f in range(0, (5-t) * 4 + 1):
-        print(f.readline(), end="")
->>>>>>> 199541a3dbb1be3239ebbf1de5fb3a3d08ab9470
+        print(r.readline(), end="")
+
 
 while True:
     print("-" * 40)
