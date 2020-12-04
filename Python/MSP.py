@@ -17,7 +17,7 @@ guessNum = 7
 
 def draw(t):
     r = open("Lucas_Fuller.txt", "r")
-    for x in range(0, (5-t) * 4 + 1):
+    for f in range(0, (5-t) * 4 + 1):
         print(f.readline(), end="")
 
 while True:
