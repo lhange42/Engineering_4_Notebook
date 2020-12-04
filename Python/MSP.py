@@ -1,22 +1,20 @@
 # Man shaped pinata 
 # by Lukas Hange
 
-programFinished = False
-guessLetter = ""
-guessList = []
-word = str(input(" What's the word, player 1: ").upper())
-word = list(word)
-print ("\n" * 50)
-for i in range(0, len(word)):
+guessList = [] # creates a list that will hold the world as a guess
+word = str(input(" What's the word, player 1: ").upper()) #gets a input from user to input a word
+word = list(word) # turns that word into a list
+print ("\n" * 50) # clears screen by printing blank space
+for i in range(0, len(word)): # turns the guess into "_"
     guessList.append("_")
-guessLetter = ""
-sameGuess = []
-guessNum = 7
+guessLetter = "" # sets up guess Letter as a string 
+sameGuess = [] # creates a list tha will hold guesses so they can read for whats been guessed
+guessNum = 7 # sets the number of guesses to 7
 
 
-def draw(t):
-    r = open("Lucas_Fuller.txt", "r")
-    for f in range(0, (7-t) * 4 + 1):
+def draw(t): # this is the function that will print the picture that represents the loss
+    r = open("Lucas_Fuller.txt", "r") # acceses the file holding the image i ASCii form
+    for f in range(0, (7-t) * 4 + 1): # goes through the image in sections
         print(r.readline(), end="")
 
 
