@@ -30,10 +30,10 @@ while True:
 
     elif guessLetter in word:
         sameGuess.append(guessLetter)
-        indices = [i for i, x in enumerate(word) if x == letter]
+        indices = [i for i, x in enumerate(word) if x == guessLetter]
         for x in range(0,len(indices)):
             guessList[indices[x]] = guessLetter
-            word[indixes[x]] = "_"
+            word[indices[x]] = "_"
         print("".join(guessList))
 
     elif guessLetter not in word:
