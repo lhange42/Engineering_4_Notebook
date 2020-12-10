@@ -52,7 +52,7 @@ My Engineering 4 notebook
   This assignment is to create a hangman program which prompts for a user inputted word then prints something out for every wrong letter guess.
     
 ### Lessons Learned 
-  In this assignment
+  In this assignment I used a lot of similar commands from previous mainly involving a lot of lists. I learned the way to open and read text files in python which var = (file_name.txt, "r") then var.read() will read the file. I also learned to enumerate to keep track of all instances of a guess in the word that is being guessed using enumerate(list). I aslo learned "".join(list) which when put in print function will turn a list into a string when using quotations. I already knew this but it's the first time I've used it this year in coding so I thought I'd include that the break command simply ends a loop and simply requires typing the word break wherever in a loop you want it to break.
 ### Images and Links
 <img src="Images/Hangman_Win-Lukas.png" width="400">
 <img src="Images/Hangman_Loss-Lukas.png" width="400">
