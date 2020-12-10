@@ -56,3 +56,15 @@ My Engineering 4 notebook
 ### Images and Links
 <img src="Images/Hangman_Win-Lukas.png" width="400">
 <img src="Images/Hangman_Loss-Lukas.png" width="400">
+
+## SSH LED Blinking
+
+### Description
+  In this assignment we connect to our pi to our computer using the wifi by getting our pi's ip address and since I'm on computer I used Secure Shell
+  
+### Lessons Learned 
+  In this assignment I learned how to turn my pi's ssh on "sudo raspi-config" and going to interface options and SSH. I also learned that how you connect is simply making the username pi since that's your login for the pi and the hostname is the ip address. I've used these before but time.sleep(how long you want to wait) is how you wait.
+  
+### Images and Links
+<img src="Images/SSH_LED_Wiring.png" width="400">
+
