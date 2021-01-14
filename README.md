@@ -60,7 +60,7 @@ My Engineering 4 notebook
 ## SSH LED Blinking
 
 ### Description
-  In this [assignment]() we connect to our pi to our computer using the wifi by getting our pi's ip address and since I'm on computer I used Secure Shell
+  In this assignment we connect to our pi to our computer using the wifi by getting our pi's ip address and since I'm on computer I used Secure Shell
   
 ### Lessons Learned 
   In this assignment I learned how to turn my pi's ssh on "sudo raspi-config" and going to interface options and SSH. I also learned that how you connect is simply making the username pi since that's your login for the pi and the hostname is the ip address. I've used these before but time.sleep(how long you want to wait) is how you wait.
@@ -72,10 +72,10 @@ My Engineering 4 notebook
 ## I2C
 
 ### Description
-  Use an accelerometer and a I2C display to display the changing acceleration of x,y, and z values 
+  in this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/I2C.py) I had to use an accelerometer and a OLED display to display the changing acceleration of x,y, and z values using I2C to transfer the data from the accelerometer to the display. 
   
 ### Lessons Learned 
-  I learned
+  I learned a lot of new things in this assignment. I learned a lot of new display commands. The example codes were actually really helpful for learning commands and seeing the different functions I can use. Also in the assignment is shows that the accelerometer returns six values since it includes a magnetometer so you have to set up a variable just to hold those mag values so you can seperate them. 
   
 ### Images and Links
 <img src="Images/SSH_LED_Wiring.png" width="400">
