@@ -78,5 +78,5 @@ My Engineering 4 notebook
   I learned a lot of new things in this assignment. I learned a lot of new display commands. The example codes were actually really helpful for learning commands and seeing the different functions I can use. Also in the assignment is shows that the accelerometer returns six values since it includes a magnetometer so you have to set up a variable just to hold those mag values so you can seperate them. 
   
 ### Images and Links
-<img src="Images/SSH_LED_Wiring.png" width="400">
+<img src="Images/I2C-Lukas.png" width="400">
 
