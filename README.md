@@ -80,3 +80,21 @@ My Engineering 4 notebook
 ### Images and Links
 <img src="Images/I2C-Lukas.png" width="400">
 
+## 
+
+### Description
+   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/bash.sh) 
+  
+### Lessons Learned 
+  
+
+## Flask
+
+### Description
+  in this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/I2C.py)  
+  
+### Lessons Learned 
+ 
+  
+### Images and Links
+<img src="Images/I2C-Lukas.png" width="400">
