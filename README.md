@@ -80,18 +80,18 @@ My Engineering 4 notebook
 ### Images and Links
 <img src="Images/I2C-Lukas.png" width="400">
 
-## 
+## Bash
 
 ### Description
-   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/bash.sh) 
+   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/bash.sh) we used bash to make two leds blink
   
 ### Lessons Learned 
-  
+  I learned how to use bash and a few commands. I learned that echo is the command to print. I learned you need #!/bin/bash at the start of a bash script. Also to be able to run a bash script you need to chmod +x file name to be able to run it. To do rests you simply type sleep put a space then just put the time wanted. I also learned for loops which you can see how to do in my code.
 
-## Flask
+## Flask Hello World
 
 ### Description
-  in this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/I2C.py)  
+  in this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/Flash/hello_world/app.py)  
   
 ### Lessons Learned 
  
