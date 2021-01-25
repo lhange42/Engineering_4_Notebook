@@ -80,6 +80,18 @@ My Engineering 4 notebook
 ### Images and Links
 <img src="Images/I2C-Lukas.png" width="400">
 
+
+## Headless
+
+### Description
+  in this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/Headless.py) I had to use my acceleromter and OLED display but now to make some kind of visual displaying one of the accelerations and get the to automatically happen on the pis boot up without you running the code directly.
+  
+### Lessons Learned 
+  In this assignment I learned a couple new things not many new commands though since it's very similar to I2C.
+  
+### Images and Links
+<img src="Images/" width="400">
+
 ## Bash
 
 ### Description
