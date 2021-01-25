@@ -18,6 +18,7 @@ disp.clear()
 disp.display()
 width = disp.width
 height = disp.height 
+padding = 5
 image = Image.new('1', (width, height))
 
 draw = ImageDraw.Draw(image)
@@ -26,12 +27,26 @@ font = ImageFont.load_default()
 
 disp.image(image)
 disp.display() 
-
+timeVar = 0
 radius = 5
 
 while True:
-	draw.rectangle`((0, 0, width, height), outline=0, fill=0)
-	accel, mag = accelerometer.read() 
-	accel_y, accel_x, accel_z = accel# I switched x and y because the way my OLED is orientated in relation to the acceleramtor these would be opposite.
+	if(timeVar > width)
+		draw.rectangle`((0, 0, width, height), outline=0, fill=0)
+		timeVar = 0
+		
+	if(timeVar == 0)
+		draw.rectangle((0+padding, height-padding, width+padding, -height-padding), outline=255, fill=0)
+		
+		
+	acc, mag = accelerometer.read() 
+	acc_x, acc_y, acc_z = acc # this gives me all my acceleration data even though I only need x acceleration I have to store all of them.
 	mag_x, mag_y, mag_z = mag
-	draw.ellipse((
+	xAcc = abs(acc_x*.1) + padding # sets up the x acceleration data into data values for graphing
+	
+	draw.ellipse((timeVar,xAcc,1,1), outline = 255, fill = 255)# will draw a dot at each point and the points will be charted on the graph 
+	
+	time.sleep(1)
+	
+	disp.image(image)
+	disp.display()
