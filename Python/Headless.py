@@ -27,25 +27,25 @@ font = ImageFont.load_default()
 
 disp.image(image)
 disp.display() 
-timeVar = 0
+timeVar = padding
 radius = 5
 
 while True:
 	if timeVar > width:
 		draw.rectangle((0, 0, width, height), outline=0, fill=0)
-		timeVar = 0
+		timeVar = padding
 		
 
-	if timeVar == 0:
+	if timeVar == padding:
 		draw.rectangle((0+padding, height-padding, width+padding, -height-padding), outline=255, fill=0)
 		print("resets t")
 		
 	acc, mag = accelerometer.read() 
 	acc_x, acc_y, acc_z = acc # this gives me all my acceleration data even though I only need x acceleration I have to store all of them.
 	mag_x, mag_y, mag_z = mag
-	xAcc = abs(acc_x*.1) + padding # sets up the x acceleration data into data values for graphing
+	xAcc = abs(acc_x*.5) + padding # sets up the x acceleration data into data values for graphing
 	
-	draw.ellipse((timeVar,height-xAcc,50,50), outline = 255, fill = 255)# will draw a dot at each point and the points will be charted on the graph 
+	draw.ellipse((timeVar,height-xAcc,timeVar+1,height-xAcc+1), outline = 255, fill = 255)# will draw a dot at each point and the points will be charted on the graph 
 	print(xAcc)
 	time.sleep(.5)
 	timeVar = timeVar + 1
