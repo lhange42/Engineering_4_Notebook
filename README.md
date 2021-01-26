@@ -104,10 +104,10 @@ This [Link](https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be) is a v
 ## Flask Hello World
 
 ### Description
-  in this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/Flash/hello_world/app.py)  
+  in this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/Flash/hello_world/app.py) you have to make a program that allows you to open a web browser and search your pi's ip and make it display hello world
   
 ### Lessons Learned 
- 
+  
   
 ### Images and Links
 <img src="Images/Hello_World_Flask-Lukas.png" width="400">
