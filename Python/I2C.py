@@ -39,7 +39,7 @@ while True:
 	draw.text((x, top + 30), "Acc z ={0}".format(round(acc_z / 100, 3)), font=font, fill=255) # displays the z value acceleration and rounds it to 3
 	disp.image(image)
 	disp.display()
-	draw.rectangle((100, 12, 55, 50), outline=0, fill=0)
+	draw.rectangle((100, 12, 55, 50), outline=0, fill=0) # prints a black rectangle on the screen that covers the previous display of values
 	disp.image(image)
 	disp.display()
 
