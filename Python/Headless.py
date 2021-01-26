@@ -43,7 +43,7 @@ while True:
 	acc, mag = accelerometer.read() 
 	acc_x, acc_y, acc_z = acc # this gives me all my acceleration data even though I only need x acceleration I have to store all of them.
 	mag_x, mag_y, mag_z = mag
-	xAcc = abs((acc_x*.025)*1.5) + padding # 
+	xAcc = abs((acc_x*.00625)*2) + padding # 
 
 	if xAcc < 5: 
 		xAcc = 5
