@@ -90,7 +90,7 @@ My Engineering 4 notebook
   In this assignment I learned a couple new things not many new commands though since it's very similar to I2C. 
   
 ### Images and Links
-<img src="Images/" width="400">
+<img src="Images/Headless-Lukas.png" width="400">
 This [link](https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be) is a video showing the OLED Display graph. The change is hard to see because of the little amount of acceleration by me simply moving the accelerometer back and forth but still shows the scatter plot being made. 
 
 ## Bash
