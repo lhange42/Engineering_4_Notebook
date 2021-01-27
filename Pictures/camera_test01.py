@@ -1,9 +1,9 @@
 import time
 import picamera
-imageNum = 0
+#imageNum = 0
 def file():
-	imageNum = imageNum + 1
-	fileName = "camera_test" + str(imageNum) + ".jpg"	
+	#imageNum = imageNum + 1
+	#fileName = "camera_test" + str(imageNum) + ".jpg"	
 	return(fileName)
 
 with picamera.PiCamera() as camera:

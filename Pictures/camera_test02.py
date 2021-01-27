@@ -21,20 +21,24 @@ with picamera.PiCamera() as camera:
 		#for every iteration, change the effect
 		if i == 0:
 			camera.image_effect = 'colorswap'
+			camera.capture('camera_test_colorswap.jpg')
 		elif i == 1:
 			camera.image_effect = 'sketch'
+			camera.capture('camera_test_sketch.jpg')
 		elif i == 2:
 			camera.image_effect = 'cartoon'
+			camera.capture('camera_test_cartoon.jpg')
 		elif i == 3:
 			camera.image_effect = 'washedout'
+			camera.capture('camera_test_washedout.jpg')
 		elif i == 4:
 			camera.image_effect = 'film'
+			camera.capture('camera_test_none.jpg')
 		else:
-			camera.image_effect = 'colorswap'
+			camera.image_effect = 'none'
+			camera.capture('camera_test_film.jpg')
 		
 		#capture the photo
-		time.sleep(1)
-		camera.capture('camera_test.jpg')
 		time.sleep(2)
 
 		#tell what number loop we are on
