@@ -100,6 +100,15 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
   
 ### Lessons Learned 
   I learned how to use bash and a few commands. I learned that echo is the command to print. I learned you need #!/bin/bash at the start of a bash script. Also to be able to run a bash script you need to chmod +x file name to be able to run it. To do rests you simply type sleep put a space then just put the time wanted. I also learned for loops which you can see how to do in my code.
+  
+## GPIO Pins Python
+
+### Description
+   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/) we used bash to make two leds blink
+  
+### Lessons Learned 
+  
+ 
 
 ## Flask Hello World
 
