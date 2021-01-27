@@ -87,7 +87,7 @@ My Engineering 4 notebook
   in this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/Headless.py) I had to use my acceleromter and OLED display but now to make some kind of visual displaying one of the accelerations and get the to automatically happen on the pis boot up without you running the code directly.
   
 ### Lessons Learned 
-  In this assignment I learned a couple new things not many new commands though since it's very similar to I2C. 
+  In this assignment I learned a couple new things not many new commands though since it's very similar to I2C. In my assignment I made scatter plot by having my x-axis represent time and I would increase it with each run trhough of the while loop. My y-axis represented the x acceleration it stayed at 17 to 22 for the acceleration when at rest so I set up a mathmatecal function to make it roughly zero. I already knew this but this is the first time I've used it I believe but I used the abs() command which takes the absolute value.
   
 ### Images and Links
 <img src="Images/Headless-Lukas.png" width="400">
