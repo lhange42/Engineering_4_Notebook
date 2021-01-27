@@ -30,7 +30,7 @@ with picamera.PiCamera() as camera:
 		elif i == 4:
 			camera.image_effect = 'film'
 		else:
-			camera.image_effect = 'none'
+			camera.image_effect = 'colorswap'
 		
 		#capture the photo
 		time.sleep(1)
