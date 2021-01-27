@@ -104,11 +104,12 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
 ## GPIO Pins Python
 
 ### Description
-   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/) we used bash to make two leds blink
+   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/GPIO_Pins_Python.py) we used bash to make two leds blink with gpio
   
 ### Lessons Learned 
   
- 
+### Images
+  <img src="Images/GPIO_Pins_Python-Lukas.png" width="400">
 
 ## Flask Hello World
 
