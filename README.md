@@ -118,7 +118,7 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
   in this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/Flash/hello_world/app.py) you have to make a program that allows you to open a web browser and search your pi's ip and make it display hello world
   
 ### Lessons Learned 
-  This assignment was pretty straight forward and provided a good basic understanding on how it works. 
+  This assignment was pretty straight forward and provided a good basic understanding on how it works. It shows how to setup a web server. All you have to do is google the ip and you'll be able to access the pi's web server from anywhere.
   
 ### Images and Links
 <img src="Images/Hello_World_Flask-Lukas.png" width="400">
