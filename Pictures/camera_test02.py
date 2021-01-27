@@ -38,7 +38,7 @@ with picamera.PiCamera() as camera:
 		time.sleep(2)
 
 		#tell what number loop we are on
-		print("loop : " + i) 
+		print("loop : " + str(i)) 
 	
 	#when program is completed
 	camera.stop_preview()
