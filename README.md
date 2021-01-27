@@ -107,7 +107,7 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
    In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/GPIO_Pins_Python.py) we used bash to make two leds blink with gpio
   
 ### Lessons Learned 
-  This assignment was pretty much bash but obviously in python. This assignment will create weird errors if not managed by a line that says GPIO.setwarnings(false). 
+  This assignment was pretty much bash but obviously in python. This assignment will create weird errors if not managed by a line that says GPIO.setwarnings(false). I've used GPIO.BCM when setting mode of GPIO this time I used GPIO.BOARD which changes the how you call the pins in your code.
   
 ### Images
   <img src="Images/GPIO_Pins_Python-Lukas.png" width="250">
@@ -118,7 +118,7 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
   in this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/Flash/hello_world/app.py) you have to make a program that allows you to open a web browser and search your pi's ip and make it display hello world
   
 ### Lessons Learned 
-  
+  This assignment was pretty straight forward and provided a good basic understanding on how it works. 
   
 ### Images and Links
 <img src="Images/Hello_World_Flask-Lukas.png" width="400">
