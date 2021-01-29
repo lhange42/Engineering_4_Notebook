@@ -123,13 +123,13 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
 ### Images and Links
 <img src="Images/Hello_World_Flask-Lukas.png" width="400">
 
-## 
+## GPIO Flask
 
 ### Description
-   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/GPIO_Pins_Python.py) we used bash to make two leds blink with gpio
+   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/Flask/gpio/app.py) you use flask and HTML to set up a web server in where you put two buttons one to turn an LED on and one to turn an LED off.
   
 ### Lessons Learned 
-  This assignment was pretty much bash but obviously in python. This assignment will create weird errors if not managed by a line that says GPIO.setwarnings(false). I've used GPIO.BCM when setting mode of GPIO this time I used GPIO.BOARD which changes the how you call the pins in your code.
+  This assignment was pretty difficult. It made me remember some of the HTML stuff I learned in AP CSP. It was a little confusing because if you mess up one name of your variable then you just get a lot of errors and have to figure out which variable is incorrect. I learned a lot of commands like requests and also there is a lot of HTML formatting I learned.
   
 ### Images
-  <img src="Images/GPIO_Pins_Python-Lukas.png" width="250">
+  <img src="Images/GPIO_Flask-Lukas.png" width="250">
