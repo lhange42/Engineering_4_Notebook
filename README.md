@@ -132,4 +132,29 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
   This assignment was pretty difficult. It made me remember some of the HTML stuff I learned in AP CSP. It was a little confusing because if you mess up one name of your variable then you just get a lot of errors and have to figure out which variable is incorrect. I learned a lot of commands like requests and also there is a lot of HTML formatting I learned.
   
 ### Images
-  <img src="Images/GPIO_Flask-Lukas.png" width="250">
+  <img src="Images/GPIO_Flask-Lukas.png" width="400">
+  
+## Pi Camera
+  (I worked on this assignment with Graham Lenert and Owen Mckenney because of hardware difficulties they were experiencing)
+### Camera Test 1
+
+#### Description
+   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test01.py) 
+  
+#### Lessons Learned 
+  In this assignment I learned how to do the basic setup for a camera. I learned how to setup the camera's resolution with the camera.resolution() before doing this command and the following you need to make sure that you make picamera.PiCamera() as camera. Finally you can use camera.capture('file name') to take a picture and it will save it in that folder under the name provdied in the apostrophes.
+  
+#### Images and links
+  This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test.jpg) is the picture taken
+  
+### Camera Test 2
+  
+#### Description
+   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test02.py) 
+  
+#### Lessons Learned 
+  
+  
+#### Images and links
+  <img src="Images/GPIO_Flask-Lukas.png" width="400"> 
+  
