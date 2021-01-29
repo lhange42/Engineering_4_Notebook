@@ -122,3 +122,14 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
   
 ### Images and Links
 <img src="Images/Hello_World_Flask-Lukas.png" width="400">
+
+## 
+
+### Description
+   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Python/GPIO_Pins_Python.py) we used bash to make two leds blink with gpio
+  
+### Lessons Learned 
+  This assignment was pretty much bash but obviously in python. This assignment will create weird errors if not managed by a line that says GPIO.setwarnings(false). I've used GPIO.BCM when setting mode of GPIO this time I used GPIO.BOARD which changes the how you call the pins in your code.
+  
+### Images
+  <img src="Images/GPIO_Pins_Python-Lukas.png" width="250">
