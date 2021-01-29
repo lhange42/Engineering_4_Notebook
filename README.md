@@ -156,5 +156,9 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
   
   
 #### Images and links
-  <img src="Images/GPIO_Flask-Lukas.png" width="400"> 
+   This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test_cartoon.jpg) is the cartoon effect picture
+   This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test_colorswap.jpg) is the colorswap effect picture 
+   This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test_none.jpg) is the normal picture
+   This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test_sketch.jpg) is the sketch effect picture
+   This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test_washedout.jpg) is the washedout effect picture
   
