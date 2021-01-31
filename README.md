@@ -171,31 +171,25 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
 ### Copypasta Project 1
 
 #### Description
-   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/Copy) I had to take a picture using the camera and print an indicator before and a completion indicator after.
+   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/Copypasta_Project_1.py) I had to take a picture when the motion sensor detects movement.
   
 #### Lessons Learned 
-  In this assignment I learned how to do the basic setup for a camera. I learned how to setup the camera's resolution with the camera.resolution() before doing this command and the following you need to make sure that you make picamera.PiCamera() as camera. Finally you can use camera.capture('file name') to take a picture and it will save it in that folder under the name provdied in the apostrophes.
+  In this assignment I learned some new things. 
   
 #### Images and links
-  This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test.jpg) is the picture taken
+  This [Link](https://github.com/lhange42/Engineering_4_Notebook/tree/main/Pictures) is where the video files are and stored as .h264's
   
-### Camera Test 2
+### Copypasta Project 2
   
 #### Description
-   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test02.py) I had to take 5 different pictures with different photo effects.
+   In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/Copypasta_Project_2.py) I had to make a stop motion video by turning pictures into an mp4
   
 #### Lessons Learned 
-  This assignment wasn't too bad. It contains the majority of the same commands and code. In this assignment instead I used a for loop to get the 5 pictures and a series of if and elif commands to cycle through the the different camera affects. The command camera.image_effect = 'effect' is how you change the effect that the camera is using. The effects we used were cartoon, colorswap, none(normal), sketch, washhedout.
+  
   
 #### Images and links
-   This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test_cartoon.jpg) is the cartoon effect picture
+   This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/animation.mp4) is the stop motion video
    
-   This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test_colorswap.jpg) is the colorswap effect picture 
-   
-   This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test_none.jpg) is the normal picture
-   
-   This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test_sketch.jpg) is the sketch effect picture
-   
-   This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/camera_test_washedout.jpg) is the washedout effect picture
+   This [Link](https://github.com/lhange42/Engineering_4_Notebook/tree/main/Pictures/animation) is the folder with the frames used to create the stop motion video
   
 
