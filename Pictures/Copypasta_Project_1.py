@@ -1,5 +1,5 @@
 from gpiozero import MotionSensor
-from picamera importy PiCamera
+from picamera import PiCamera
 import datetime
 
 pir = MotionSensor(4)
