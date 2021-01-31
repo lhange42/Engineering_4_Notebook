@@ -174,7 +174,7 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
    In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/Copypasta_Project_1.py) I had to take a picture when the motion sensor detects movement.
   
 #### Lessons Learned 
-  In this assignment I learned some new things. 
+  In this assignment I learned some new things. I learned the commands of a motion sensing and also how to read the date and time. I also learned how to run motion detector commands to read motion and wait for no motion. The command pir.wait_for_motion() is waiting for motion so it's pretty much a time.sleep but until motion is detected, the pir is representitive of the pin of the motion sensor. Also to record a video you have to use camera.record_recording(filename).
   
 #### Images and links
   This [Link](https://github.com/lhange42/Engineering_4_Notebook/tree/main/Pictures) is where the video files are and stored as .h264's
@@ -185,7 +185,7 @@ This Link: https://www.youtube.com/watch?v=us0utDJ7s1M&feature=youtu.be is a vid
    In this [assignment](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/Copypasta_Project_2.py) I had to make a stop motion video by turning pictures into an mp4
   
 #### Lessons Learned 
-  
+  This assignment provided some new insights and commands. This part of the camera.capture line frame%03d.jpg' % frame makes the file change to whatever frame is equal to where that % symbol is. ffmpeg -r 10 -i animation/frame%03d.jpg -qscale 2 animation.mp4 this line of code is something you enter into your terminal that takes all the frames from my animation folder and creates those into a mp4 named animation.
   
 #### Images and links
    This [Link](https://github.com/lhange42/Engineering_4_Notebook/blob/main/Pictures/animation.mp4) is the stop motion video
